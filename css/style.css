@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Questrial|Quicksand:400,500,700&subset=latin-ext');
+/*font-family: 'Quicksand', sans-serif;*/
+/*font-family: 'Questrial', sans-serif;*/
+
+
+/*#F4F4F4*/
+/*#90ADC5*/
+/*#336B87*/
+/*#2A3132*/
+/*#763626*/
+
+body {
+	/*margin: 0;*/
+	font-family: 'Montserrat', ssans-serif;
+	/*font-family: 'Questrial', sans-serif;*/
+}
+
+a:link,a:visited ,a:active{
+	color: white;
+	text-decoration: none;
+}
+.navigation {
+	position: fixed;
+	top:0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: rgba(0,0,0,0.5);
+	z-index: 100;
+	color: white;
+	width: 40%;
+}
+.text-welcome {
+	letter-spacing: 3px;
+	word-spacing: 10px;
+	word-wrap: break-word;
+	font-size: 46px;
+	text-align: center;
+}
+.navigation-menu {
+	margin: 30px 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+.navigation-menu a {
+	display: block;
+}
+
+.navigation-menu li {
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	width: 25%;
+	font-size: 13px;
+}
+
+.navigation-menu a:hover,
+.navigation-menu a:focus {
+	background: #fff;
+	color: #000;
+	transition: all .4s ease-in-out;
+}
+
+
+.carousel-indicators {
+	right: 1%;
+	margin: 0;
+	width: 50px;
+	left: auto;
+}
+
+.carousel-indicators li {
+	border-radius:  0;
+}
