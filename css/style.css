@@ -21,6 +21,7 @@
 body {
 	font-family: 'Montserrat',sans-serif;
 	color: #fff;
+	padding-top: 50px;
 }
 
 a:link,a:visited ,a:active{
@@ -182,20 +183,56 @@ a:link,a:visited ,a:active{
 
 
 
-.social-media a {
- 	height: 35px;
-	width: 35px;
-	color: black;
-} 
 
+
+/* #################	SECTION FOOTER ####################*/
+
+footer {
+	background-color: #00293c;
+}
+.social-media {
+	padding: 15px 0;
+}
 .social-media i.fa {
-	padding: 10px 0;
+	margin: 0 15px;
+	font-size: 18px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	position: relative;
+	z-index: 2;
+	-webkit-transition: all .3s;
+	transition: all .3s;
 }
 
-a.fb:hover,
-a.fb:focus {
+.social-media i.fa::after {
+	position: absolute;
+	display: inline-block;
+	content: '';
+	height: 30px;
+	width: 30px;
+	left: 0;
+	border: 2px solid;	
+	transform: rotate(-45deg);
+}
+
+.social-media i.fa:hover,
+.social-media i.fa:focus
+{
+	transform: scale(1.2);
+}
+/*
+
+ i.fa::before:hover,i.fa::before:focus {
 	color: #3B5998;
 }
-
-
+.tw:hover,
+.tw:focus {
+	color: #1dcaff;
+}
+.gb:hover,
+.gb:focus {
+	color: #24292E;
+}
+*/
 
