@@ -1,15 +1,39 @@
-@media screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) {
 
 }
 
-@media screen and (min-width: 768px) {
 
+@media only screen and (min-width: 590px) {
+	
+	.slogan {
+		right: .5%;
+		width: 43%;
+		max-width: 400px;
+		bottom: 30%;
+	}
 }
 
-@media screen and (min-width: 922px) {
-
+@media only screen and (min-width: 768px) {
+	
+	.slogan {
+		right: 1%;
+	}	
+	.slogan blockquote {
+		font-size: 15px;
+	}	
+	.slogan h4 {
+		font-size: 16px;
+	}
 }
 
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 922px) {
+		.slogan {
+		right: 2%;
+	}	
+}
 
+@media only screen and (min-width: 1200px) {
+	.slogan {
+		right: 3%;
+	}
 }
